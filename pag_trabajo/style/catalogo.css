@@ -10,7 +10,7 @@
     background-color: #fdfdfd;
     color: #333;
     line-height: 1.6;
-    transition: background 0.3s ease, color 0.3s ease;
+    padding: 20px;
   }
   
   /* ENCABEZADO */
@@ -22,7 +22,8 @@
   }
   
   header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #b08d57;
   }
   
   nav ul {
@@ -39,6 +40,7 @@
     font-weight: bold;
     padding: 6px 12px;
     border-radius: 5px;
+    transition: all 0.3s ease;
   }
   
   nav ul li a:hover,
@@ -46,7 +48,6 @@
     background-color: white;
     color: #050505;
   }
-  
   
   /* CATÁLOGO DE JOYAS */
   .catalogo {
@@ -111,54 +112,11 @@
     background-color: #a78b5d;
   }
   
-  /* 🌙 BOTÓN DE MODO OSCURO */
-  .toggle-mode {
-    position: fixed;
-    top: 15px;
-    right: 20px;
-    background: #bfa87c;
-    color: white;
-    border: none;
-    padding: 8px 14px;
-    border-radius: 20px;
-    cursor: pointer;
+  /* PIE DE PÁGINA */
+  footer {
+    text-align: center;
+    margin-top: 50px;
     font-size: 0.9rem;
-    z-index: 1000;
-  }
-  
-  /* 🌚 MODO OSCURO */
-  body.dark {
-    background-color: #1e1e1e;
-    color: #f0f0f0;
-  }
-  
-  body.dark .joya {
-    background-color: #2b2b2b;
-  }
-  
-  body.dark .contenido p {
-    color: #bbb;
-  }
-  
-  body.dark nav {
-    background-color: #2b2b2b;
-  }
-  
-  body.dark nav ul li a {
-    color: #f0f0f0;
-  }
-  
-  body.dark nav ul li a:hover,
-  body.dark nav ul li a.activo {
-    background-color: #fff;
-    color: #2b2b2b;
-  }
-  
-  body.dark .btn {
-    background-color: #a78b5d;
-  }
-  
-  body.dark .btn:hover {
-    background-color: #8c724d;
+    color: #aaa;
   }
   
