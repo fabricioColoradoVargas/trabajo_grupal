@@ -2,14 +2,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
   color: #333;
-  line-height: 1.6;}
+  line-height: 1.6;
+  padding: 0;
+}
+
+
 header {
-  background-color: #631111;
+  background-color: #631111; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -54,7 +61,6 @@ nav ul li a.activo {
   color: #020202;
 }
 
-
 .historia {
   display: flex;
   flex-direction: column;
@@ -78,30 +84,23 @@ nav ul li a.activo {
 
 .card {
   background-color: #fff;
-  border: 2px solid #662222;
+  border: 2px solid #d4af37;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 20px;
   width: 300px;
   max-width: 90%;
-<<<<<<< HEAD
-  transition: transform 0.2s ease;}
-=======
   transition: transform 0.2s ease;
 }
 
 
 
->>>>>>> origin/master
 .card:hover {
   transform: scale(1.03);
 }
 
 .card h3 {
   margin-bottom: 10px;
-<<<<<<< HEAD
-  color: #66231e;}
-=======
   color: #d4af37;
 }
 
@@ -135,37 +134,28 @@ header p {
     font-size: 1.1rem;
     color: #666;
 }
->>>>>>> origin/master
 
 .faq {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .faq-item {
-  background-color: #fff9f5;
-  border-left: 4px solid #b08d57;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: #fff9f5;
+    border-left: 4px solid #b08d57;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .faq-item h2 {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-  color: #6d4c41;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #6d4c41;
 }
 
 footer {
-<<<<<<< HEAD
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  font-size: 0.9rem;}
-=======
     text-align: center;
     margin-top: 50px;
     font-size: 0.9rem;
@@ -204,6 +194,3 @@ footer {
     font-style: italic;
   }
   
-
-
->>>>>>> origin/master

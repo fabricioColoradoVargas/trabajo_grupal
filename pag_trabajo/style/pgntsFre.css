@@ -20,8 +20,9 @@ header.nav {
     text-align: center;
 }
 
-header.nav h1 {
-    font-size: 2rem;
+header h1 {
+    font-size: 2.5rem; 
+    color: #b08d57;
 }
 
 nav ul {
@@ -46,7 +47,7 @@ nav ul li a.activo {
     color: #050505;
 }
 
-/* Estilos para la sección del título de Preguntas Frecuentes */
+
 .faq-header {
     text-align: center;
     margin-top: 40px;
@@ -63,7 +64,7 @@ nav ul li a.activo {
     color: #666;
 }
 
-/* Estilos de las preguntas frecuentes */
+
 .faq {
     max-width: 800px;
     margin: 0 auto;
@@ -90,3 +91,25 @@ footer {
     font-size: 0.9rem;
     color: #aaa;
 }
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.activo {
+    background-color: white;
+    color: #050505;
+  }
