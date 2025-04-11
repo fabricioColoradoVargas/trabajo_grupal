@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Joyería</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #f9f5f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #bfa87c;
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .joya {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .joya:hover {
+      transform: translateY(-5px);
+    }
+
+    .joya img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .contenido {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contenido h2 {
+      margin: 10px 0;
+      font-size: 1.3rem;
+      color: #444;
+    }
+
+    .contenido p {
+      font-size: 1rem;
+      color: #777;
+    }
+
+    .precio {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #bfa87c;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Catálogo de Joyería Elegante</h1>
+  </header>
+
+  <section class="catalogo">
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Anillo de oro">
+      <div class="contenido">
+        <h2>Anillo de Oro</h2>
+        <p>Oro 18k con incrustaciones de diamantes.</p>
+        <div class="precio">$1,200</div>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04" alt="Collar de esmeraldas">
+      <div class="contenido">
+        <h2>Collar de Esmeralda</h2>
+        <p>Diseño exclusivo con piedras preciosas naturales.</p>
+        <div class="precio">$2,500</div>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1603570412207-03fd5290e4e2" alt="Pulsera de plata">
+      <div class="contenido">
+        <h2>Pulsera de Plata</h2>
+        <p>Plata italiana con detalles finos.</p>
+        <div class="precio">$850</div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
