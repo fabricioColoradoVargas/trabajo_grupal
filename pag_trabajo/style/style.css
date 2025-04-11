@@ -74,16 +74,30 @@ nav ul li a.activo {
   border-radius: 10px;
 }
 
-.mision-vision h3 {
-  color: #641a1a;
+.valores {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
 }
 
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
+.card {
+  background-color: #fff;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 20px;
-  margin-top: 40px;
+  width: 300px;
+  max-width: 90%;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #d4af37;
 }
