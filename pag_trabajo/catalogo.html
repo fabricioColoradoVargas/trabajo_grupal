@@ -3,80 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/catalogo.css">
   <title>Catálogo de Joyería</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Playfair Display', serif;
-      background-color: #f9f5f0;
-      color: #333;
-    }
-
-    header {
-      background-color: #fff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #bfa87c;
-    }
-
-    .catalogo {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-
-    .joya {
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .joya:hover {
-      transform: translateY(-5px);
-    }
-
-    .joya img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .contenido {
-      padding: 20px;
-      text-align: center;
-    }
-
-    .contenido h2 {
-      margin: 10px 0;
-      font-size: 1.3rem;
-      color: #444;
-    }
-
-    .contenido p {
-      font-size: 1rem;
-      color: #777;
-    }
-
-    .precio {
-      margin-top: 10px;
-      font-weight: bold;
-      color: #bfa87c;
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
-<body>
+<body id="catalogobody">
 
-  <header>
+  <header id="catalogoherader">
     <h1>Catálogo de Joyería Elegante</h1>
   </header>
 
