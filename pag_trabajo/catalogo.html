@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/catalogo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Catálogo de Joyería</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/catalogo.css" />
 </head>
-<body id="catalogobody">
+<body>
 
-  <header id="catalogoherader">
+  <button class="toggle-mode" onclick="document.body.classList.toggle('dark')">🌙 Modo Oscuro</button>
+
+    <header>
     <h1>Catálogo de Joyería Elegante</h1>
-  </header>
+  
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="nosotros.html" class="activo">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="preguntas.html">Preguntas</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
+    </header>
 
   <section class="catalogo">
+    <!-- PRODUCTOS (1 a 16) -->
     <div class="joya">
       <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Anillo de oro">
       <div class="contenido">
         <h2>Anillo de Oro</h2>
         <p>Oro 18k con incrustaciones de diamantes.</p>
         <div class="precio">$1,200</div>
+        <button class="btn">Agregar al carrito</button>
       </div>
     </div>
 
@@ -27,8 +42,9 @@
       <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04" alt="Collar de esmeraldas">
       <div class="contenido">
         <h2>Collar de Esmeralda</h2>
-        <p>Diseño exclusivo con piedras preciosas naturales.</p>
+        <p>Piedras preciosas naturales montadas a mano.</p>
         <div class="precio">$2,500</div>
+        <button class="btn">Agregar al carrito</button>
       </div>
     </div>
 
@@ -36,11 +52,145 @@
       <img src="https://images.unsplash.com/photo-1603570412207-03fd5290e4e2" alt="Pulsera de plata">
       <div class="contenido">
         <h2>Pulsera de Plata</h2>
-        <p>Plata italiana con detalles finos.</p>
+        <p>Elegancia clásica con detalles delicados.</p>
         <div class="precio">$850</div>
+        <button class="btn">Agregar al carrito</button>
       </div>
     </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1610465299997-6f7299c1c672" alt="Aretes de zafiro">
+      <div class="contenido">
+        <h2>Aretes de Zafiro</h2>
+        <p>Brillo y profundidad en zafiros azules intensos.</p>
+        <div class="precio">$1,750</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1612161457231-9c85fbc4c905" alt="Reloj de lujo">
+      <div class="contenido">
+        <h2>Reloj de Lujo</h2>
+        <p>Diseño atemporal con tecnología suiza.</p>
+        <div class="precio">$4,300</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1599940824395-04a0a3a6f67c" alt="Collar de perlas">
+      <div class="contenido">
+        <h2>Collar de Perlas</h2>
+        <p>Perlas cultivadas de alta calidad y brillo natural.</p>
+        <div class="precio">$2,100</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1575550959106-1c7c195a2a78" alt="Anillo de plata">
+      <div class="contenido">
+        <h2>Anillo de Plata</h2>
+        <p>Minimalismo elegante en plata pulida.</p>
+        <div class="precio">$620</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1600185365090-8c6c993b3a1e" alt="Brazalete de cuero">
+      <div class="contenido">
+        <h2>Brazalete de Cuero</h2>
+        <p>Estilo moderno y versátil para uso diario.</p>
+        <div class="precio">$380</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <!-- PRODUCTOS NUEVOS -->
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1611841556644-68b53a6e9dbf" alt="Anillo de rubí">
+      <div class="contenido">
+        <h2>Anillo de Rubí</h2>
+        <p>Rubí central con acabado en oro rosa.</p>
+        <div class="precio">$1,850</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1604537529428-8b8de3dc2664" alt="Pulsera de cuero trenzado">
+      <div class="contenido">
+        <h2>Pulsera Trenzada</h2>
+        <p>Cuero negro con cierre magnético de acero.</p>
+        <div class="precio">$420</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1632304325464-e8d8bfc2c1b2" alt="Collar de amatista">
+      <div class="contenido">
+        <h2>Collar de Amatista</h2>
+        <p>Amatista natural en colgante tallado a mano.</p>
+        <div class="precio">$1,300</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1589987601972-17f6b4b62f39" alt="Aretes de perlas">
+      <div class="contenido">
+        <h2>Aretes de Perlas</h2>
+        <p>Perlas blancas cultivadas con engaste de plata.</p>
+        <div class="precio">$950</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1628751343989-209c9f683a4b" alt="Broche vintage">
+      <div class="contenido">
+        <h2>Broche Vintage</h2>
+        <p>Inspirado en los años 50, con cristales tallados.</p>
+        <div class="precio">$760</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1556228453-efd9a8d4d071" alt="Reloj clásico mujer">
+      <div class="contenido">
+        <h2>Reloj Clásico Mujer</h2>
+        <p>Estilo elegante con correa de cuero blanco.</p>
+        <div class="precio">$2,200</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1631803345980-f01513a1fd73" alt="Cadena de oro">
+      <div class="contenido">
+        <h2>Cadena de Oro</h2>
+        <p>Cadena maciza de oro 14k con diseño minimalista.</p>
+        <div class="precio">$3,500</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="joya">
+      <img src="https://images.unsplash.com/photo-1599723685143-dabe5998e935" alt="Pulsera con charms">
+      <div class="contenido">
+        <h2>Pulsera con Charms</h2>
+        <p>Charms intercambiables en plata y piedras.</p>
+        <div class="precio">$1,150</div>
+        <button class="btn">Agregar al carrito</button>
+      </div>
+    </div>
+
   </section>
 
 </body>
 </html>
+
