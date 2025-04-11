@@ -161,5 +161,36 @@ footer {
     font-size: 0.9rem;
     color: #aaa;
 }
-
-
+/* Estilos para la sección de testimonios */
+#testimonios {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .testimonio {
+    background-color: #fff;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonio:hover {
+    transform: scale(1.03);
+  }
+  
+  .testimonio-contenido {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .testimonio .autor {
+    font-weight: bold;
+    color: #d4af37;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
