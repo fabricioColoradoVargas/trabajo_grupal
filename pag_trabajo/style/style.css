@@ -93,7 +93,8 @@ nav ul li a.activo {
   transition: transform 0.2s ease;
 }
 
-<<<<<<< HEAD
+
+
 .card:hover {
   transform: scale(1.03);
 }
@@ -102,7 +103,7 @@ nav ul li a.activo {
   margin-bottom: 10px;
   color: #d4af37;
 }
-=======
+
  /*preguntas*/
  /* Reset básico */
 * {
@@ -160,4 +161,5 @@ footer {
     font-size: 0.9rem;
     color: #aaa;
 }
->>>>>>> origin/master
+
+
