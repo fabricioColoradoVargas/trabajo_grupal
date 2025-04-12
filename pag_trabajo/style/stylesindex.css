@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #631111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #b08d57;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.activo {
+    background-color: white;
+    color: #050505;
+  }
+  
+  /* Contenedor principal */
+  .contenedor {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .contenedor h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #020202;
+  }
+  
+  /* Sección Valores / Cards */
+  .valores {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 90%;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #d4af37;
+  }
+  
+  /* Sección Testimonios */
+  #testimonios {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .testimonio {
+    background-color: #fff;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonio:hover {
+    transform: scale(1.03);
+  }
+  
+  .testimonio-contenido {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .testimonio .autor {
+    font-weight: bold;
+    color: #d4af37;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
