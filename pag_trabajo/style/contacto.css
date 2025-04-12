@@ -144,10 +144,11 @@
   }
   
   footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #aaa;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 150px;
   }
   /* Estilos para la sección de testimonios */
   #testimonios {
